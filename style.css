@@ -1,0 +1,33 @@
+.img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    outline: 1px solid lightgrey;
+    display: inline-block;
+    background-size: cover;
+    transition: 2s;
+    margin: 2px;
+
+}
+
+.img1 {
+    background-image: url(r9.jpeg);
+    background-position: center;
+}
+
+.img2 {
+    background-image: url(cr7.jpeg);
+}
+
+.img3 {
+    background-image: url(mes.jpeg);
+}
+
+.img4 {
+    background-image: url(ney.jpeg);
+}
+
+.img:hover {
+    border-radius: 50%;
+    box-shadow: 10px 16px 13px black;
+}
